@@ -43,7 +43,7 @@ svg
     .attr("transform", "translate(0," + height + ")")
     .call(d3.axisBottom(x).tickFormat(formatMonth)); 
 	
-svg.append("g").attr("class", "y axis").attr("transform", "translate(830,0 )").call(d3.axisLeft(y));
+svg.append("g").attr("class", "y axis").attr("transform", "translate(830,0 )").call(d3.axisRight(y));
 
 svg
     .append("text")
@@ -100,7 +100,7 @@ function appendData(year) {
             .select(".y.axis") 
             .transition()
             .duration(750)
-            .call(d3.axisLeft(y));
+            .call(d3.axisRight(y));
 
         const areaPath = svg
             .append("path")
