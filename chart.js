@@ -48,7 +48,7 @@ svg.append("g").attr("class", "y axis").attr("transform", "translate(830,0 )").c
 svg
     .append("text")
     //.attr("transform", "rotate(-90)")
-    .attr("transform", "translate(830,0 )")
+    .attr("transform", "translate(868,0 )")
     .attr("y", -30)
     .attr("x", -10)
     .attr("dy", "1em")
