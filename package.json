@@ -1,7 +1,7 @@
 {
-  "homepage": "https://markdz.github.io/bitcoin-chart/",
   "name": "bitcoin-chart",
   "private": true,
+  "homepage": "https://markdz.github.io/bitcoin-chart/",
   "version": "0.0.1",
   "type": "module",
   "scripts": {
