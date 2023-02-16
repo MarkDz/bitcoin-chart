@@ -10,8 +10,25 @@ body {
 }
 
 #options {
+  display: flex;
+  font-size: 40px;
   padding-top: 100px;
   margin-left: 155px;
+}
+
+label {
+  display: flex;
+  align-items: center;
+}
+
+input[type="radio" i] {
+  background-color: initial;
+  cursor: default;
+  appearance: auto;
+  box-sizing: border-box;
+  margin: 10px;
+  padding: initial;
+  border: initial;
 }
 
 #root {
